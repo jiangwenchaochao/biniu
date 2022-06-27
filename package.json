@@ -19,7 +19,29 @@
 				"command": "biniu.helloWorld",
 				"title": "Hello World"
 			}
-		]
+		],
+		"viewsContainers": {
+			"activitybar": [
+				{
+					"id": "Bniu",
+					"title": "Bniu",
+					"icon": "/resource/icon/niu.svg"
+				}
+			]
+		},
+		"views": {
+			"package-explorer": [
+				{
+					"id": "nodeDependencies",
+					"name": "Node Dependencies",
+					"icon": "/resource/icon/niu.svg",
+					"contextualTitle": "Package Explorer"
+				}
+			],
+			"explorer": [
+				
+			]
+		}
 	},
 	"scripts": {
 		"vscode:prepublish": "npm run package",
