@@ -18,6 +18,10 @@
 			{
 				"command": "biniu.helloWorld",
 				"title": "Hello World"
+			},
+			{
+				"command": "cyptos.addEntry",
+				"title": "Add"
 			}
 		],
 		"viewsContainers": {
@@ -30,15 +34,25 @@
 			]
 		},
 		"views": {
-			"package-explorer": [
+			"Bniu": [
 				{
-					"id": "nodeDependencies",
-					"name": "Node Dependencies",
+					"id": "Bniu1",
+					"name": "cyptos",
 					"icon": "/resource/icon/niu.svg",
 					"contextualTitle": "Package Explorer"
 				}
 			],
 			"explorer": [
+				
+			]
+		},
+		"menus": {
+			"view/title": [
+				{
+					"command": "cyptos.addEntry",
+					"when": "view == nodeDependencies",
+					"group": "navigation"
+				}
 				
 			]
 		}
